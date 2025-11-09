@@ -1,7 +1,11 @@
 import React from 'react';
 
-import {faSquareGithub, faSquareInstagram, faSquareLinkedin} from '@fortawesome/free-brands-svg-icons';
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {
+  faSquareGithub,
+  faSquareInstagram,
+  faSquareLinkedin,
+} from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Image from 'next/image';
 import Link from 'next/link';
 

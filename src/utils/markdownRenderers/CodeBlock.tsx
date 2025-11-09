@@ -1,10 +1,10 @@
 import React from 'react';
 
-import { PrismLight as SyntaxHighlighter } from 'react-syntax-highlighter';
+import {PrismLight as SyntaxHighlighter} from 'react-syntax-highlighter';
 import css from 'react-syntax-highlighter/dist/esm/languages/prism/css';
 import js from 'react-syntax-highlighter/dist/esm/languages/prism/javascript';
 import ts from 'react-syntax-highlighter/dist/esm/languages/prism/typescript';
-import { oneDark } from 'react-syntax-highlighter/dist/esm/styles/prism';
+import {oneDark} from 'react-syntax-highlighter/dist/esm/styles/prism';
 
 import styles from './CodeBlock.module.css';
 
@@ -24,13 +24,15 @@ const CodeBlock: React.FC<CodeBlockProps> = ({ className, children }) => {
   const language = className?.replace('language-', '') || '';
 
   const codeString = React.Children.toArray(children)
-    .map((child) =>
-      typeof child === 'string'
-        ? child
-        : React.isValidElement(child)
-          ? String(child.props.children)
-          : ''
-    )
+    .map((child) => {
+      if (typeof child === 'string') {
+        return child;
+      }
+      if (React.isValidElement(child) && child.props && 'children' in child.props) {
+        return String(child.props.children);
+      }
+      return '';
+    })
     .join('');
 
   return (

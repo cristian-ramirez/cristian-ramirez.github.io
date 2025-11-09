@@ -7,7 +7,7 @@ import styles from './ImageNode.module.css'; // Import the CSS module
 
 export interface ImageProps {
   alt: string;
-  src: string;
+  src: string | Blob;
 }
 
 const StyledImage = ({ src, alt, ...props }: ImageProps) => {
