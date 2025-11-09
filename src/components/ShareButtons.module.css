@@ -1,0 +1,26 @@
+/* ShareButtons.module.css */
+.shareContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 0.75rem;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.shareContainer a,
+.shareContainer button {
+  background: var(--color-soft-secondary);
+  border: none;
+  border-radius: 5px;
+  color: var(--color-secondary);
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+  text-decoration: none;
+}
+
+.shareContainer a:hover,
+.shareContainer button:hover {
+  background: var(--color-secondary);
+  color: var(--color-soft-primary);
+}

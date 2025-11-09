@@ -1,0 +1,42 @@
+/* ImageNode.module.css */
+
+.imageWrapper {
+  display: block;
+  position: relative;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  margin: 16px auto;
+  max-width: 100%;
+  /* Set a maximum width for the image container */
+  width: 100%;
+  /* Ensure the container is responsive */
+  aspect-ratio: 16 / 9;
+  /* Maintain a consistent aspect ratio */
+  overflow: hidden;
+}
+
+.loading {
+  min-height: 300px;
+  /* Apply this while the image is loading */
+}
+
+.isLoaded {
+  min-height: auto;
+  /* Remove the fixed min-height once the image is loaded */
+}
+
+.customImg {
+  object-fit: cover;
+  /* Maintain aspect ratio and cover the container */
+  width: 100%;
+  /* Fill the container width */
+  height: auto;
+  /* Let the height adjust based on width */
+  filter: brightness(0.9);
+  transition: filter 0.3s;
+}
+
+.customImg:hover {
+  filter: brightness(1);
+}

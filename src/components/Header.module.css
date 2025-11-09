@@ -1,0 +1,62 @@
+.infoWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.socialWrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.imageWrapper {
+  position: relative;
+  border-radius: 4px;
+  display: flex;
+  margin-right: 8px;
+  overflow: hidden;
+  width: 100px;
+}
+
+.imageWrapper .customImg {
+  object-fit: cover;
+  filter: brightness(0.9);
+  transition: filter 0.3s;
+
+  &:hover {
+    filter: brightness(1);
+  }
+}
+
+.title {
+  display: flex;
+  margin: 0;
+}
+
+.navStyles {
+  display: flex;
+  flex: 1 0 0;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  margin: 20px 0;
+}
+
+.navStyles a {
+  margin-right: 15px;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.headerStyles {
+  align-items: center;
+  display: flex;
+  padding: 20px 0px;
+}
+
+.headerStyles a {
+  align-items: center;
+  display: flex;
+}
