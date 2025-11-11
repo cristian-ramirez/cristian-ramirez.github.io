@@ -32,7 +32,9 @@ const StyledImage = ({ src, alt, ...props }: { src: string; alt: string }) => {
 const Header = () => {
   return (
     <header className={styles.headerStyles}>
-      <StyledImage src="/profile.jpeg" alt="The Tech Pulse" />
+      <Link href={'/'}>
+        <StyledImage src="/profile.jpeg" alt="The Tech Pulse" />
+      </Link>
       <div className={styles.infoWrapper}>
         <Link href={'/'}>
           <h1 className={styles.title}>Cristian Ramírez</h1>
