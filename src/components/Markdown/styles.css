@@ -1,0 +1,37 @@
+.timeline {
+  position: relative;
+  padding-left: 28px;
+  border-left: 2px solid #e3e3e3;
+  margin: 16px 0;
+}
+
+.timeline .item {
+  position: relative;
+  padding: 12px 0;
+}
+
+.timeline .dot {
+  position: absolute;
+  left: -15px;
+  top: 16px;
+  width: 10px;
+  height: 10px;
+  background: #6750a4;
+  border-radius: 50%;
+}
+
+.timeline .content {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
+.timeline .content h4 {
+  margin: 0 0 4px 0;
+  font-size: 1rem;
+}
+
+.timeline .content p {
+  margin: 0;
+  color: #c4c4c4;
+}

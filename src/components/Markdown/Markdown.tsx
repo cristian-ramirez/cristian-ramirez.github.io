@@ -1,6 +1,7 @@
 import React from 'react';
 
 import ReactMarkdown, { Components } from 'react-markdown';
+import rehypeRaw from 'rehype-raw';
 import remarkGfm from 'remark-gfm';
 
 import CodeBlock from './renderers/CodeBlock/CodeBlock';
@@ -12,6 +13,8 @@ import ListItemNode from './renderers/ListItemNode/ListItemNode';
 import ListNode from './renderers/ListNode/ListNode';
 import Paragraph from './renderers/Paragraph/Paragraph';
 import Preformatted from './renderers/Preformatted/Preformatted';
+
+import './styles.css';
 
 interface MarkdownProps {
   children: string;
@@ -82,7 +85,11 @@ const renderers: Components = {
 
 const Markdown: React.FC<MarkdownProps> = ({ children }) => {
   return (
-    <ReactMarkdown components={renderers} remarkPlugins={[[remarkGfm, { singleTilde: false }]]}>
+    <ReactMarkdown
+      components={renderers}
+      remarkPlugins={[[remarkGfm, { singleTilde: false }]]}
+      rehypePlugins={[rehypeRaw]}
+    >
       {children}
     </ReactMarkdown>
   );
