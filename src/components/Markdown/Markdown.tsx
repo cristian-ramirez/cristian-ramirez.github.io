@@ -3,15 +3,15 @@ import React from 'react';
 import ReactMarkdown, { Components } from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 
-import CodeBlock from '@/utils/markdownRenderers/CodeBlock';
-import Heading from '@/utils/markdownRenderers/Heading';
-import HrNode from '@/utils/markdownRenderers/HrNode';
-import ImageNode from '@/utils/markdownRenderers/ImageNode';
-import LinkNode from '@/utils/markdownRenderers/LinkNode';
-import ListItemNode from '@/utils/markdownRenderers/ListItemNode';
-import ListNode from '@/utils/markdownRenderers/ListNode';
-import Paragraph from '@/utils/markdownRenderers/Paragraph';
-import Preformatted from '@/utils/markdownRenderers/Preformatted';
+import CodeBlock from './renderers/CodeBlock/CodeBlock';
+import Heading from './renderers/Heading/Heading';
+import HrNode from './renderers/HrNode/HrNode';
+import ImageNode from './renderers/ImageNode/ImageNode';
+import LinkNode from './renderers/LinkNode/LinkNode';
+import ListItemNode from './renderers/ListItemNode/ListItemNode';
+import ListNode from './renderers/ListNode/ListNode';
+import Paragraph from './renderers/Paragraph/Paragraph';
+import Preformatted from './renderers/Preformatted/Preformatted';
 
 interface MarkdownProps {
   children: string;

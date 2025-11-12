@@ -26,8 +26,7 @@ const getArticleContent = (folder: string, slug: string) => {
   }
 
   const content = fs.readFileSync(filePath, 'utf8');
-  const matterResult = matter(content);
-  return matterResult;
+  return matter(content);
 };
 
 export default getArticleContent;

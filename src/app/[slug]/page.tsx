@@ -1,4 +1,4 @@
-import ArticleContent from '@/components/ArticleContent'; // Import the client component
+import ArticleContent from '@/components/ArticleContent/ArticleContent'; // Import the client component
 import getArticleContent from '@/utils/getArticleContent';
 import getArticleMetadata from '@/utils/getArticleMetadata';
 

@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 
-import Markdown from '@/components/Markdown';
+import Markdown from '@/components/Markdown/Markdown';
 import getArticleContent from '@/utils/getArticleContent';
 
 export const generateMetadata = async (): Promise<Metadata> => {

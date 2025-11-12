@@ -1,6 +1,6 @@
 import React from 'react';
 
-import styles from './HrNode.module.css';
+import styles from './styles.module.css';
 
 const HrNode: React.FC = () => {
   return <hr className={styles.hr} />;

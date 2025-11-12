@@ -12,7 +12,7 @@ const getArticleMetadata = (basePath: string) => {
   const files = fs.readdirSync(folder);
   const markdownArticles = files.filter((file) => file.endsWith('.md'));
 
-  const articles = markdownArticles.map((filename: string) => {
+  return markdownArticles.map((filename: string) => {
     const articleContent = fs.readFileSync(path.join(folder, filename), 'utf8');
     const matterResult = matter(articleContent);
     return {
@@ -22,7 +22,6 @@ const getArticleMetadata = (basePath: string) => {
       slug: filename.replace('.md', ''),
     };
   });
-  return articles;
 };
 
 export default getArticleMetadata;

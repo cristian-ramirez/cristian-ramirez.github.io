@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 
-import styles from './ListItemNode.module.css';
+import styles from './styles.module.css';
 
 export interface ListItemNodeProps {
   children: React.ReactNode;

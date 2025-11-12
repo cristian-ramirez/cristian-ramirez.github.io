@@ -1,4 +1,4 @@
-import ArticleCard from '@/components/ArticleCard';
+import ArticleCard from '@/components/ArticleCard/ArticleCard';
 import getArticleMetadata from '@/utils/getArticleMetadata';
 
 export default function Home() {

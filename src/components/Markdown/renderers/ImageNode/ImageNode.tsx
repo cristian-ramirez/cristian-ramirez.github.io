@@ -3,7 +3,7 @@ import React from 'react';
 
 import Image from 'next/image';
 
-import styles from './ImageNode.module.css'; // Import the CSS module
+import styles from './styles.module.css';
 
 export interface ImageProps {
   alt: string;

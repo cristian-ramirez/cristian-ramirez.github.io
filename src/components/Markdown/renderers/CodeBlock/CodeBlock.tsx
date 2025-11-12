@@ -6,7 +6,7 @@ import js from 'react-syntax-highlighter/dist/esm/languages/prism/javascript';
 import ts from 'react-syntax-highlighter/dist/esm/languages/prism/typescript';
 import { oneDark } from 'react-syntax-highlighter/dist/esm/styles/prism';
 
-import styles from './CodeBlock.module.css';
+import styles from './styles.module.css';
 
 // Register languages you will use to avoid missing highlight support (optional but recommended)
 SyntaxHighlighter.registerLanguage('typescript', ts);

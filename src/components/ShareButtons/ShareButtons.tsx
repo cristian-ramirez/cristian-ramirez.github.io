@@ -1,9 +1,9 @@
 'use client';
 import React from 'react';
 
-import Icon from '@/components/Icon';
+import Icon from '@/components/Icon/Icon';
 
-import styles from './ShareButtons.module.css';
+import styles from './styles.module.css';
 
 const ShareButtons = ({ title, url }: { title: string; url: string }) => {
   const encodedTitle = encodeURIComponent(title);

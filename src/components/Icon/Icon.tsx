@@ -1,6 +1,6 @@
 import React from 'react';
 
-import styles from './Icon.module.css';
+import styles from './styles.module.css';
 
 interface IconProps {
   name: string;

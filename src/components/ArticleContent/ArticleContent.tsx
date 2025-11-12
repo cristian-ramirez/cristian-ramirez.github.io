@@ -2,10 +2,10 @@
 
 import React from 'react';
 
-import Markdown from '@/components/Markdown';
-import ShareButtons from '@/components/ShareButtons';
+import Markdown from '@/components/Markdown/Markdown';
+import ShareButtons from '@/components/ShareButtons/ShareButtons';
 
-import styles from './ArticleContent.module.css';
+import styles from './styles.module.css';
 
 interface ArticleContentProps {
   articleContent: string | null;

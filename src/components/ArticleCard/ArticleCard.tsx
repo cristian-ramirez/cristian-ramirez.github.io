@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 import getDateFormat from '@/utils/getDateFormat';
 
-import styles from './ArticleCard.module.css';
+import styles from './styles.module.css';
 
 const ArticleCard = (props: any) => {
   const { article } = props;

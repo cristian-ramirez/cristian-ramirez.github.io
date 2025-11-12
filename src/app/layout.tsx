@@ -5,7 +5,7 @@ import { config } from '@fortawesome/fontawesome-svg-core';
 import { Inter } from 'next/font/google';
 import { styled } from 'styled-components';
 
-import Header from '@/components/Header';
+import Header from '@/components/Header/Header';
 
 import { metadata } from './metadata';
 
