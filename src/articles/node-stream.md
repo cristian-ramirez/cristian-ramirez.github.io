@@ -131,6 +131,8 @@ At this point we have the ability to read our user list, if execute the file in 
 like this, where the key `name` is the end of a chunk and `Leanne Graham` is the value of the `name` in the beginning of
 the next one.
 
+<img width="315" height="108" alt="Captura de pantalla 2025-11-14 a la(s) 4 27 17 p  m" src="https://github.com/user-attachments/assets/9c963886-780d-4595-b35a-406feb0480b0" />
+
 ### How to know when a user object is complete loaded?
 
 Since we are working with a list of json objects we have some characters that we can use as tokens to know when the list
