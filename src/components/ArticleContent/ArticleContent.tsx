@@ -1,25 +1,17 @@
-'use client'; // Mark this component as client-side
+'use client';
 
 import React from 'react';
 
 import Markdown from '@/components/Markdown/Markdown';
-import ShareButtons from '@/components/ShareButtons/ShareButtons';
 
 import styles from './styles.module.css';
 
 interface ArticleContentProps {
   articleContent: string | null;
-  folder: string;
   loading: boolean;
-  slug: string;
 }
 
-const ArticleContent: React.FC<ArticleContentProps> = ({
-  articleContent,
-  folder,
-  loading,
-  slug,
-}) => {
+const ArticleContent: React.FC<ArticleContentProps> = ({ articleContent, loading }) => {
   return (
     <main>
       {loading ? (
@@ -28,7 +20,6 @@ const ArticleContent: React.FC<ArticleContentProps> = ({
         </div>
       ) : (
         <article>
-          <ShareButtons url={`${process.env.NEXT_PUBLIC_BASE_URL}/${folder}/${slug}`} />
           {articleContent ? <Markdown>{articleContent}</Markdown> : <p>Article not found.</p>}
         </article>
       )}

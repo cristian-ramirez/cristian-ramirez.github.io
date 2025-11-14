@@ -22,14 +22,7 @@ const ArticlePage = async ({ params }: { params: Promise<{ slug: string }> }) =>
 
   const article = getArticleContent('articles/', slug);
 
-  return (
-    <ArticleContent
-      articleContent={article.content}
-      folder="articles"
-      loading={false}
-      slug={slug}
-    />
-  );
+  return <ArticleContent articleContent={article.content} loading={false} />;
 };
 
 export default ArticlePage;
