@@ -1,4 +1,4 @@
 .link {
-  color: rgb(36, 36, 36);
   margin-bottom: 16px;
+  color: var(--color-paragraph);
 }

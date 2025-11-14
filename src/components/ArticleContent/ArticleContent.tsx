@@ -9,7 +9,6 @@ import styles from './styles.module.css';
 
 interface ArticleContentProps {
   articleContent: string | null;
-  articleTitle: string;
   folder: string;
   loading: boolean;
   slug: string;
@@ -17,7 +16,6 @@ interface ArticleContentProps {
 
 const ArticleContent: React.FC<ArticleContentProps> = ({
   articleContent,
-  articleTitle,
   folder,
   loading,
   slug,
@@ -30,10 +28,7 @@ const ArticleContent: React.FC<ArticleContentProps> = ({
         </div>
       ) : (
         <article>
-          <ShareButtons
-            title={articleTitle}
-            url={`${process.env.NEXT_PUBLIC_BASE_URL}/${folder}/${slug}`}
-          />
+          <ShareButtons url={`${process.env.NEXT_PUBLIC_BASE_URL}/${folder}/${slug}`} />
           {articleContent ? <Markdown>{articleContent}</Markdown> : <p>Article not found.</p>}
         </article>
       )}

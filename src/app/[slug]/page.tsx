@@ -25,7 +25,6 @@ const ArticlePage = async ({ params }: { params: Promise<{ slug: string }> }) =>
   return (
     <ArticleContent
       articleContent={article.content}
-      articleTitle={article.data.title}
       folder="articles"
       loading={false}
       slug={slug}

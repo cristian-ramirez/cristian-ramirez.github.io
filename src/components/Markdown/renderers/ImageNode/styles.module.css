@@ -1,7 +1,7 @@
 /* styles.css */
 
 .imageWrapper {
-  display: block;
+  /*display: block;*/
   position: relative;
   border-radius: 4px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -9,9 +9,9 @@
   margin: 16px auto;
   max-width: 100%;
   /* Set a maximum width for the image container */
-  width: 100%;
+  width: 85%;
   /* Ensure the container is responsive */
-  aspect-ratio: 16 / 9;
+  /*aspect-ratio: 16 / 9;*/
   /* Maintain a consistent aspect ratio */
   overflow: hidden;
 }

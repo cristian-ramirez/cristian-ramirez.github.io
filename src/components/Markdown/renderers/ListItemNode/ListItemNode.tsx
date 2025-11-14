@@ -8,7 +8,7 @@ export interface ListItemNodeProps {
 }
 
 const ListItemNode: React.FC<ListItemNodeProps> = ({ children }) => {
-  return <li className={`${styles.list} ${styles.firstChild}`}>{children}</li>;
+  return <li className={`${styles.list}`}>{children}</li>;
 };
 
 export default ListItemNode;

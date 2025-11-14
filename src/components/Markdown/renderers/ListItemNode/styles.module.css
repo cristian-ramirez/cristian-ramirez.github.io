@@ -1,9 +1,9 @@
 .list {
   font-size: 16px;
   line-height: 32px;
-  margin-top: 16px;
+  color: var(--color-paragraph);
 }
 
 .list:first-child {
-  margin-top: 40px;
+  margin-top: 20px;
 }

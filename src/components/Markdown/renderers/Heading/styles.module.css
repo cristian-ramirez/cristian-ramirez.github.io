@@ -4,21 +4,26 @@
 }
 
 .heading2 {
+  margin-top: 10px;
   margin-bottom: 20px;
 }
 
 .heading3 {
+  margin-top: 32px;
   margin-bottom: 16px;
 }
 
 .heading4 {
+  margin-top: 24px;
   margin-bottom: 12px;
 }
 
 .heading5 {
+  margin-top: 16px;
   margin-bottom: 8px;
 }
 
 .heading6 {
+  margin-top: 8px;
   margin-bottom: 4px;
 }

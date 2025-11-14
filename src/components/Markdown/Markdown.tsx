@@ -21,7 +21,7 @@ interface MarkdownProps {
 }
 
 const inlineCodeStyle = {
-  backgroundColor: '#f0f0f0',
+  backgroundColor: '#1e293b',
   padding: '2px 4px',
   borderRadius: '4px',
   fontFamily: 'monospace',
