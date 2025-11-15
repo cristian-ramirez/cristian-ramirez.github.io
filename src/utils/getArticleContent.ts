@@ -1,5 +1,6 @@
 import fs from 'fs';
 import matter from 'gray-matter';
+import { notFound } from 'next/navigation';
 import path from 'path';
 
 const resolveFolder = (folder: string) => {
@@ -22,7 +23,7 @@ const getArticleContent = (folder: string, slug: string) => {
   const filename = slug?.endsWith('.md') ? slug : `${slug}.md`;
   const filePath = path.join(folderPath, filename);
   if (!fs.existsSync(filePath)) {
-    throw new Error(`File not found: ${filePath}`);
+    notFound();
   }
 
   const content = fs.readFileSync(filePath, 'utf8');

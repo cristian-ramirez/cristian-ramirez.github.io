@@ -10,7 +10,7 @@ export const generateStaticParams = async () => {
 export const generateMetadata = async ({ params }: { params: Promise<{ slug: string }> }) => {
   const { slug } = await params;
   return {
-    title: `C.R blog ${slug.replaceAll('_', '')}`,
+    title: `C.R blog - ${slug.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase())}`,
   };
 };
 
