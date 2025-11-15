@@ -5,7 +5,7 @@ import getArticleContent from '@/utils/getArticleContent';
 
 export const generateMetadata = async (): Promise<Metadata> => {
   return {
-    title: `My Blog - About`,
+    title: `C.R blog - About`,
   };
 };
 
