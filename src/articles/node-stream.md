@@ -129,7 +129,7 @@ readable.on('end', () => {
 
 At this point we have the ability to read our user list, if execute the file in the terminal is possible to see things
 like this, where the key `name` is the end of a chunk and `Leanne Graham` is the value of the `name` in the beginning of
-the next one.
+the next chunk.
 
 <img width="315" height="108" alt="Captura de pantalla 2025-11-14 a la(s) 4 27 17 p  m" src="https://github.com/user-attachments/assets/9c963886-780d-4595-b35a-406feb0480b0" />
 
@@ -198,7 +198,7 @@ const outStream = new Writable({
 - Node streams are powerful option to handle big amount of data from different source, for example files; or use them to
   handle http request, it allows to keep open a channel to write or read data from the server, and using a reasonable
   use of memory to solve more complex issues.
-- Applying mathematical concepts we could build elegant solutions to solve complex situations
+- Applying mathematical concepts we could build elegant solutions to solve complex problems
 
 ### Sources
 
