@@ -97,6 +97,24 @@ footer {
   padding: 24px;
 }
 
+.not-found-container h1 {
+  display: inline-block;
+  margin: 0 20px 0 0;
+  padding: 0 23px 0 0;
+  vertical-align: top;
+  line-height: 49px;
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.not-found-container div {
+  display: inline-block;
+}
+
+.not-found-container p {
+  line-height: 49px;
+  font-weight: 700;
+}
+
 @media (min-width: 640px) {
   body {
     padding: 24px;
