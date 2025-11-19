@@ -202,7 +202,7 @@ const outStream = new Writable({
 
 ### Sources
 
-- [Github](https://github.com/cristian-ramirez/node-streaming/tree/main/src)
+- [Full source code](https://github.com/cristian-ramirez/node-streaming/tree/main/src)
 - [Node.js](https://nodejs.org/docs/latest/api/stream.html)
 - [freeCodeCamp](https://www.freecodecamp.org/news/node-js-streams-everything-you-need-to-know-c9141306be93/)
 - [Polish notation](https://en.wikipedia.org/wiki/Polish_notation)

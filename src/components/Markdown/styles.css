@@ -35,3 +35,35 @@
   margin: 0;
   color: #c4c4c4;
 }
+
+.scale {
+  display: flex;
+  flex-direction: row;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.skill {
+  padding: 12px 0;
+  width: 180px;
+}
+
+.skill h4 {
+  margin-top: 0;
+}
+
+.scale .dot {
+  width: 20px;
+  height: 20px;
+  border: solid 1px #6750a4;
+  border-radius: 50%;
+}
+
+.scale .dot.dot-filled {
+  background: #6750a4;
+}

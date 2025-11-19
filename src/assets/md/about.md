@@ -13,6 +13,97 @@ to query databases, and regarding databases I mainly worked on Postgres and Fire
 I'm open to learn new technologies and languages, taking challenges as part of my career path to let me grow in
 different areas.
 
+---
+
+## Skills
+
+<div class="skills" >
+  <div class="skill">
+    <h4>React/Next.js</h4>
+    <div class="scale">
+      <span class="dot dot-filled"></span>
+      <span class="dot dot-filled"></span>
+      <span class="dot dot-filled"></span>
+      <span class="dot dot-filled"></span>
+      <span class="dot dot-filled"></span>
+    </div>
+  </div>
+  <div class="skill">
+    <h4>Javascript/Typescript</h4>
+    <div class="scale">
+      <span class="dot dot-filled"></span>
+      <span class="dot dot-filled"></span>
+      <span class="dot dot-filled"></span>
+      <span class="dot dot-filled"></span>
+      <span class="dot dot-filled"></span>
+    </div>
+  </div>
+  <div class="skill">
+    <h4>Express.js/Nest.js</h4>
+    <div class="scale">
+      <span class="dot dot-filled"></span>
+      <span class="dot dot-filled"></span>
+      <span class="dot dot-filled"></span>
+      <span class="dot dot-filled"></span>
+      <span class="dot"></span>
+    </div>
+  </div>
+  <div class="skill">
+    <h4>Postgres/Firebase</h4>
+    <div class="scale">
+      <span class="dot dot-filled"></span>
+      <span class="dot dot-filled"></span>
+      <span class="dot dot-filled"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+  </div>
+  <div class="skill">
+    <h4>Cypress/Jest</h4>
+    <div class="scale">
+      <span class="dot dot-filled"></span>
+      <span class="dot dot-filled"></span>
+      <span class="dot dot-filled"></span>
+      <span class="dot dot-filled"></span>
+      <span class="dot"></span>
+    </div>
+  </div>
+  <div class="skill">
+    <h4>Webpack/Vite</h4>
+    <div class="scale">
+      <span class="dot dot-filled"></span>
+      <span class="dot dot-filled"></span>
+      <span class="dot dot-filled"></span>
+      <span class="dot dot-filled"></span>
+      <span class="dot"></span>
+    </div>
+  </div>
+  <div class="skill">
+    <h4>Git/Github</h4>
+    <div class="scale">
+      <span class="dot dot-filled"></span>
+      <span class="dot dot-filled"></span>
+      <span class="dot dot-filled"></span>
+      <span class="dot dot-filled"></span>
+      <span class="dot"></span>
+    </div>
+  </div>
+  <div class="skill">
+    <h4>WordPress/Sanity</h4>
+    <div class="scale">
+      <span class="dot dot-filled"></span>
+      <span class="dot dot-filled"></span>
+      <span class="dot dot-filled"></span>
+      <span class="dot dot-filled"></span>
+      <span class="dot"></span>
+    </div>
+  </div>
+</div>
+
+---
+
+## Relevant experience
+
 My journey as web developer include multiple companies in different projects
 
 <div class="timeline">
