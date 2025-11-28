@@ -9,7 +9,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
   };
 };
 
-const ArticlePage = () => {
+const AboutPage = () => {
   const about = getArticleContent('assets/md/', 'about');
   return (
     <main>
@@ -20,4 +20,4 @@ const ArticlePage = () => {
   );
 };
 
-export default ArticlePage;
+export default AboutPage;
