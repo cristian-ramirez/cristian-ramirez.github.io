@@ -118,7 +118,7 @@ My journey as web developer include multiple companies in different projects
   <div class="item">
     <div class="dot"></div>
     <div class="content">
-      <h4>January 2018 - October 2019 — Senior Frontend Developer</h4>
+      <h4>February 2018 - August 2019 — Senior Frontend Developer</h4>
       <p>Stateside Co.</p>
     </div>
   </div>
@@ -126,16 +126,8 @@ My journey as web developer include multiple companies in different projects
   <div class="item">
     <div class="dot"></div>
     <div class="content">
-      <h4>June 2016 - January 2018 — Web Developer</h4>
+      <h4>July 2016 - January 2018 — Web Developer</h4>
       <p>Gorilla Logic.</p>
-    </div>
-  </div>
-
-  <div class="item">
-    <div class="dot"></div>
-    <div class="content">
-      <h4>March 2016 - June 2016 — Web Developer</h4>
-      <p>Apogee Interactive Software.</p>
     </div>
   </div>
 
